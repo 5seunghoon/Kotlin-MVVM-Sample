@@ -15,12 +15,6 @@ open class BaseKotlinViewModel : ViewModel() {
     // 뷰는 이러한 이벤트를 바인딩하고 있다가, 적절한 상황이 되면 액티비티를 호출하거나 스낵바를 만듬
     private val snackbarMessage = SnackbarMessage()
     private val snackbarMessageString = SnackbarMessageString()
-    private val _startLoadingIndicatorEvent: SingleLiveEvent<Any> = SingleLiveEvent()
-    val startLoadingIndicatorEvent: LiveData<Any>
-        get() = _startLoadingIndicatorEvent
-    private val _stopLoadingIndicatorEvent:SingleLiveEvent<Any> = SingleLiveEvent()
-    val stopLoadingIndicatorEvent: LiveData<Any>
-        get() = _stopLoadingIndicatorEvent
 
     /**
      * RxJava 의 observing을 위한 부분.
@@ -57,11 +51,4 @@ open class BaseKotlinViewModel : ViewModel() {
         snackbarMessageString.observe(lifeCycleOwner, ob)
     }
 
-    fun startLoadingIndicator(){
-        _startLoadingIndicatorEvent.call()
-    }
-
-    fun stopLoadingIndicator(){
-        _stopLoadingIndicatorEvent.call()
-    }
 }

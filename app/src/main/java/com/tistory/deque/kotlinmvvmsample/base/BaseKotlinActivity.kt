@@ -64,15 +64,6 @@ abstract class BaseKotlinActivity<T : ViewDataBinding, R : BaseKotlinViewModel> 
         initAfterBinding()
     }
 
-    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
-        if(isSetBackButtonValid){
-            when(item?.itemId){
-                android.R.id.home -> finish()
-            }
-        }
-        return super.onOptionsItemSelected(item)
-    }
-
     private fun snackbarObserving() {
         viewModel.observeSnackbarMessage(this) {
             Snackbar.make(findViewById(android.R.id.content), it, Snackbar.LENGTH_LONG).show()
