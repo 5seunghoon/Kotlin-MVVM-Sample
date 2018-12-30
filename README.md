@@ -1,6 +1,4 @@
-# Kotlin-MVVM-Guide
-
-
+# Kotlin-MVVM-Sample
 
 
 간단한 MVVM패턴 샘플 앱을 Kotlin을 이용하여 작성한 예제입니다.
