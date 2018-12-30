@@ -11,7 +11,7 @@ AndroidX, RxJava, Retrofit, Livedata, Koin, Picasso, Kakao API 를 활용하였�
 
 1. BaseView, BaseViewModel을 작성하여 MVVM의 토대 만들기 : http://deque.tistory.com/108?category=984011
 
-2. Koin을 통한 의존성 주입 : http://deque.tistory.com/109?category=984011
+2. Koin을 통한 의존성 주입 : http://deque.tistory.com/109?category=984012
 
 3. RxJava + Retrofit를 통한 네트워킹 및 옵저빙 : 미작성
 
