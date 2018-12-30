@@ -1,6 +1,9 @@
 # Kotlin-MVVM-Guide
 
-MVVM 패턴을 Kotlin을 이용하여 작성한 예제입니다.
+
+
+
+간단한 MVVM패턴 샘플 앱을 Kotlin을 이용하여 작성한 예제입니다.
 
 AndroidX, RxJava, Retrofit, Livedata, Koin, Picasso, Kakao API 를 활용하였습니다.
 
