@@ -13,7 +13,7 @@ AndroidX, RxJava, Retrofit, Livedata, Koin, Picasso, Kakao API 를 활용하였�
 
 2. Koin을 통한 의존성 주입 : http://deque.tistory.com/109?category=984012
 
-3. RxJava + Retrofit를 통한 네트워킹 및 옵저빙 : 미작성
+3. RxJava + Retrofit를 통한 네트워킹 및 옵저빙 : http://deque.tistory.com/110?category=984011
 
 4. Livedata를 통한 데이터 바인딩 : 미작성
 
