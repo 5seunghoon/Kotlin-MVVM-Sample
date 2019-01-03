@@ -15,6 +15,6 @@ AndroidX, RxJava, Retrofit, Livedata, Koin, Picasso, Kakao API 를 활용하였�
 
 3. RxJava + Retrofit를 통한 네트워킹 및 옵저빙 : http://deque.tistory.com/110
 
-4. Livedata를 통한 데이터 바인딩 : 미작성
+4. Livedata를 통한 데이터 바인딩 : http://deque.tistory.com/112
 
 5. SnackbarMessage, SingleLiveEvent : 미작성
