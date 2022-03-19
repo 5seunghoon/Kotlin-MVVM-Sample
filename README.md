@@ -9,11 +9,11 @@
 ### ENGLISH
 
 
-Here is an example of a simple MVVM pattern sample application written using Kotlin.
+Here is an example of a simple MVVM pattern sample application written Kotlin.
 
-I use AndroidX, RxJava, Retrofit, Livedata, Koin, Picasso, Kakao API.
+I used AndroidX, RxJava, Retrofit, Livedata, Koin, Picasso, Kakao API.
 
-I wrote a simple blog post about this sample.(KOREAN)
+I wrote blog posts about the sample.(KOREAN)
 
 1. BaseView, BaseViewModel을 작성하여 MVVM의 토대 만들기 : http://deque.tistory.com/108
 
